@@ -15,7 +15,8 @@ avi.last_name = "Flombaum"
 lhw = Student.new
 lhw.first_name = "Lucy"
 
-lhw.learn(some_knowledge)
+new_information = avi.teach 
+lhw.learn(new_information)
 
 
 some_knowledge = avi.teach 
